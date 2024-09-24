@@ -37,11 +37,14 @@ A payment application to demonstrate <strong>real-world</strong> usage of <a hre
   <img style='width: 70%' alt="Cypress Real World App" src="./public/img/rwa-readme-screenshot.png" />
 </p>
 
+### **NOTE**
+#### **Essa é uma versão minha alternativa do repositório cypress-real-world-app, onde é basicamente compartilhada aqui para deixar arquivado algumas automações testadas durante meu aprendizado!** 
+
+
+---
 > 💬 **Note from maintainers**
 >
-> This application is purely for demonstration and educational purposes. Its setup and configuration resemble typical real-world applications, but it's not a full-fledged production system. Use this app to learn, experiment, tinker, and practice application testing with Cypress.
->
-> Happy Testing!
+> Este aplicativo é apenas para demonstração e fins educacionais. Sua instalação e configuração lembram aplicativos típicos do mundo real, mas não é um sistema de produção completo. Use este aplicativo para aprender, experimentar, mexer e praticar testes de aplicativos com Cypress.
 
 ---
 
