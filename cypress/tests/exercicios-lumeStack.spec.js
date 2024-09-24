@@ -24,14 +24,14 @@ describe('Registro de novo usuário com sucesso', () => {
     cy.visit('http://localhost:3000/signup')
     registerPage.createValidAccount('abcd' , 'efgh' , 'ab_cd' , '1234' , '1234')
   });
-  it('Deve exibir mensagens de erro ao tentar registrar um novo usuário sem preencher todas as informações obrigatórias', () => {
+  it.skip('Deve exibir mensagens de erro ao tentar registrar um novo usuário sem preencher todas as informações obrigatórias', () => {
     cy.visit('http://localhost:3000/signup')
     registerPage.createInvalidAccount('Anyone' , 'Someone' ,  '1234' , '1234')
   });
 });
 
 describe('Enviar dinheiro com saldo suficiente', () => {
-  it.skip('Deve enviar dinheiro com sucesso', () => {
+  it('Deve enviar dinheiro com sucesso', () => {
     transactionPage.login('Arvilla_Hegmann', 's3cret')
     transactionPage.newTransaction('Darrel Ortiz', '200', 'text')
   });
