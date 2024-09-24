@@ -40,7 +40,18 @@ A payment application to demonstrate <strong>real-world</strong> usage of <a hre
 ### **NOTE**
 #### **Essa é uma versão minha alternativa do repositório cypress-real-world-app, onde é basicamente compartilhada aqui para deixar arquivado algumas automações testadas durante meu aprendizado!** 
 Pastas e arquivos adicionados no projeto:
-cypress/tests/exercicios-cypress/pages
+
+cypress/tests/exercicios-cypress/e2e >
+
+--cypress/tests/exercicios-cypress/e2e/user.login.spec.cy.js
+
+cypress/tests/exercicios-cypress/pages >
+
+--/loginPage.js
+
+--/registerPage.js
+
+--/transactionPage.js
 
 
 ---
