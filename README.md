@@ -39,6 +39,8 @@ A payment application to demonstrate <strong>real-world</strong> usage of <a hre
 
 ### **NOTE**
 #### **Essa é uma versão minha alternativa do repositório cypress-real-world-app, onde é basicamente compartilhada aqui para deixar arquivado algumas automações testadas durante meu aprendizado!** 
+Pastas e arquivos adicionados no projeto:
+cypress/tests/exercicios-cypress/pages
 
 
 ---
